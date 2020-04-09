@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseAppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">?attr/themeColor</item>
+        <item name="colorPrimaryDark">?attr/themeColor</item>
+        <item name="colorAccent">?attr/themeColor</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/window_background_light</item>
+        <item name="android:listDivider">@color/list_divider_light</item>
+        <item name="widgetBackground">@color/selectable_item_background_general_light_normal</item>
+        <item name="widgetBackgroundDark">@color/selectable_item_background_general_light_pressed
+        </item>
+        <item name="widgetBackgroundTitle">@android:color/white</item>
+    </style>
+
+
+    <style name="bg">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/bg</item>
+    </style>
+
+
+    <style name="net_error_img">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+
+    <style name="loading_img">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="empty_img">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+
+    <style name="AppThemeLight" parent="BaseAppThemeLight">
+        <item name="themeColor">@color/md_light_blue_500</item>
+    </style>
+
+
+    <style name="AppBaseTheme" parent="AppThemeLight">
+
+    </style>
+
+
+    <style name="BrownTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryDark">@color/dark_brown</item>
+        <item name="colorAccent">@color/accent_brown</item>
+    </style>
+
+    <style name="BlueTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/accent_blue</item>
+    </style>
+
+    <style name="BlueGreyTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_grey</item>
+        <item name="colorPrimaryDark">@color/dark_blue_grey</item>
+        <item name="colorAccent">@color/accent_blue_grey</item>
+    </style>
+    <style name="YellowTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/dark_yellow</item>
+        <item name="colorAccent">@color/accent_yellow</item>
+    </style>
+    <style name="DeepPurpleTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deep_purple</item>
+        <item name="colorPrimaryDark">@color/dark_deep_purple</item>
+        <item name="colorAccent">@color/accent_deep_purple</item>
+    </style>
+    <style name="PinkTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/dark_pink</item>
+        <item name="colorAccent">@color/accent_pink</item>
+    </style>
+
+    <style name="RedTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/accent_red</item>
+    </style>
+
+
+    <style name="GreenTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@color/accent_green</item>
+    </style>
+
+
+    <style name="BrownDialogTheme" parent="BaseDialogTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryDark">@color/dark_brown</item>
+        <item name="colorAccent">@color/accent_brown</item>
+    </style>
+
+    <style name="BlueDialogTheme" parent="BaseDialogTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/accent_blue</item>
+    </style>
+
+    <style name="BlueGreyDialogTheme" parent="BaseDialogTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_grey</item>
+        <item name="colorPrimaryDark">@color/dark_blue_grey</item>
+        <item name="colorAccent">@color/accent_blue_grey</item>
+    </style>
+    <style name="YellowDialogTheme" parent="BaseDialogTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/dark_yellow</item>
+        <item name="colorAccent">@color/accent_yellow</item>
+    </style>
+    <style name="DeepPurpleDialogTheme" parent="BaseDialogTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deep_purple</item>
+        <item name="colorPrimaryDark">@color/dark_deep_purple</item>
+        <item name="colorAccent">@color/accent_deep_purple</item>
+    </style>
+    <style name="PinkDialogTheme" parent="BaseDialogTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/dark_pink</item>
+        <item name="colorAccent">@color/accent_pink</item>
+    </style>
+
+    <style name="RedDialogTheme" parent="BaseDialogTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/accent_red</item>
+    </style>
+
+
+    <style name="GreenDialogTheme" parent="BaseDialogTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@color/accent_green</item>
+    </style>
+
+
+
+    <style name="BaseDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_second_color_primary</item>
+        <item name="android:windowEnterAnimation">@anim/abc_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/abc_fade_out</item>
+    </style>
+</resources>
